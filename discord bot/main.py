@@ -151,7 +151,7 @@ async def evaluate_error(ctx, error):
         await ctx.send('Only the bot owner can execute this command.')
 
 async def start():
-    await bot.start('MTEyNDk2MDE3NzAwMzcwODQyNg.GJ9nZ0.B7iXoNa5rv-Fe6lBHj7oET9oSz1PQeb0yN_oaE')
+    await bot.start('token_no')
 
 async def close():
     await bot.close()
